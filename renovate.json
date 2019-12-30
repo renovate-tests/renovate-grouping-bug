@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "gitlab>momentumstudio/renovate-config",
+        ":preserveSemverRanges"
+    ],
+    "packageRules": [
+        {
+            "packageNames": [
+                "phpunit/phpunit",
+                "laravel/browser-kit-testing"
+            ],
+            "groupName": "phpunit packages",
+            "groupSlug": "phpunit"
+        }
+    ]
+}
