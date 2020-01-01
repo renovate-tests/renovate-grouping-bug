@@ -10,7 +10,8 @@
                 "laravel/browser-kit-testing"
             ],
             "groupName": "phpunit packages",
-            "groupSlug": "phpunit"
+            "groupSlug": "phpunit",
+            "separateMultipleMajor": false
         }
     ]
 }
